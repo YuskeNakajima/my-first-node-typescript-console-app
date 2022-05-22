@@ -4,13 +4,16 @@
   "description": "初めてのnode.jsコンソールアプリ（Typescript）",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "ts-node-dev --respawn src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.11.36",
+    "ts-node": "^10.8.0",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.4"
   }
 }
